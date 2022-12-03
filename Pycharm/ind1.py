@@ -3,7 +3,5 @@
 
 if __name__ == '__main__':
     s = input("Введите предложение: ")
-    symb = 2
-    while symb < len(s):
-        print(s[symb])
-        symb += 3
+    symb = s[2::3]
+    print(f"{symb}\n")
